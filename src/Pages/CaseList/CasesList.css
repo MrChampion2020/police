@@ -1,0 +1,127 @@
+.cases-list-container {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+
+.cases-list-container table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.cases-list-container th, .cases-list-container td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.cases-list-container th {
+  background-color: #f2f2f2;
+  text-align: left;
+}
+
+.cases-list-container input[type="text"], .cases-list-container select, .cases-list-container textarea {
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.cases-list-container button {
+  padding: 10px 15px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 1px solid black;
+ margin-bottom: 20px;
+
+}
+
+.search-container {
+  margin-bottom: 10px;
+}
+
+.search-container label {
+  margin-right: 10px;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+  .cases-list-container {
+    width: 80%;
+    margin: auto;
+  padding-top: 50px;
+
+
+
+    font-size:xx-small;
+    word-wrap: break-word; /* Handles long words */
+    overflow-wrap: break-word; 
+
+  
+    align-items: center;
+    justify-content: center;
+
+    
+  }
+
+
+
+  .cases-list-container table {
+    width: 70%;
+    border-collapse: collapse;
+
+    align-items: center;
+    justify-content: center;
+    
+
+    font-size:xx-small;
+    margin: 0 auto;
+  }
+  
+  .cases-list-container th, .cases-list-container td {
+    border: 1px solid #ddd;
+    padding: 2px;
+  }
+  
+  .cases-list-container th {
+    background-color: #f2f2f2;
+    text-align: center;
+  }
+  
+
+}
+
+
+@media only screen and (max-width: 768px) {
+  .cases-list-container {
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+    padding-left: 0%;
+    font-size:xx-small;
+  }
+
+   table {
+    width: 70%;
+    border-collapse: collapse;
+    font-size:xx-small;
+  }
+
+ th,  td {
+    border: 1px solid #ddd;
+    padding: 2px;
+  }
+th {
+    background-color: #f2f2f2;
+    text-align: center;
+  }
+
+  /* Ensure text wraps */
+ td {
+    word-wrap: break-word; /* Handles long words */
+    overflow-wrap: break-word;
+  }
+}
